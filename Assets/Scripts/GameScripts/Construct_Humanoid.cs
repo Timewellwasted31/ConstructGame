@@ -226,10 +226,13 @@ public class Construct_Humanoid : ConstructData
         }
         else if(Input.GetKeyDown(KeyCode.P))
         {
-            GameObject.Destroy(subject.gameObject);
-            subject = null;
-            isBuilding = false;
-            Mode = BuildMode.last;
+            if (subject != null)
+            {
+                GameObject.Destroy(subject.gameObject);
+                subject = null;
+                isBuilding = false;
+                Mode = BuildMode.last;
+            }
         }
     }
 
