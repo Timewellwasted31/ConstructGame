@@ -77,7 +77,6 @@
   <ItemGroup>
     <Compile Include="Assets\GamePadInput\Demo\DemoScript.cs" />
     <Compile Include="Assets\GamePadInput\GamePad.cs" />
-    <Compile Include="Assets\MultiCamController.cs" />
     <Compile Include="Assets\Packages\Enemies\ConstructEnemy.cs" />
     <Compile Include="Assets\Packages\Enemies\IAmEnemy.cs" />
     <Compile Include="Assets\Packages\Enemies\WormEnemy.cs" />
@@ -120,6 +119,7 @@
     <Compile Include="Assets\Scripts\GameScripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\GameScripts\TurretEnplacement.cs" />
     <Compile Include="Assets\Scripts\GameScripts\UIMeshScript.cs" />
+    <Compile Include="Assets\Scripts\MultiCamController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\XML\Constructs.xml" />
